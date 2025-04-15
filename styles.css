@@ -1,0 +1,82 @@
+h1, h2, h3, a, p, b, #dropdownMenuLink {
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+#nav {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.b-example-divider {
+    width: 100%;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+#presentacion, #habilidades, #titulos, #c {
+    background-color: #95cddb;
+}
+
+.features-section {
+    padding: 0rem 0;
+}
+
+.feature-card {
+    padding: 2rem;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+}
+
+@media (max-width: 600px) {
+    
+    #nav {
+        position: relative;
+    }
+
+    h1, h2, h3, a, p, #dropdownMenuLink {
+        font-family: "Inconsolata", monospace;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-variation-settings: "wdth" 100;
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    
+    #nav {
+        position: relative;
+    }
+
+    h1, h2, h3, a, p, #dropdownMenuLink {
+        font-family: "Inconsolata", monospace;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-variation-settings: "wdth" 100;
+        font-size: 32px;
+    }
+
+}
